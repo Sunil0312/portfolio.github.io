@@ -1,0 +1,423 @@
+*{
+  margin:0;
+  padding:0;
+}
+.main{
+  width:100%;
+  background: linear-gradient(rgba(0,0,0,0.5),#408c84), url(bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+} 
+.navbar{
+  width:1200px;
+  height: 75px;
+}
+.logo{
+  padding-left: 100px;
+  float: left;
+  padding-top: 20px;
+}
+.main2{
+  width:100%;
+  background: linear-gradient(rgba(0,0,0,0.5),#408c84);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.navbar{
+  width:86%;
+  display:flex;
+  margin:auto;
+  padding:15px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+ul{
+  margin-top: -6%;
+}
+ul li{
+  list-style:none;
+  display: inline-block;
+  padding: 10px 16px;
+  margin-top: 15%;
+}
+ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: -3%;
+  text-decoration:solid;
+  color: rgb(233, 14, 14);
+}
+ul li a:hover{
+  color:orange;
+}
+.content{
+   width:1200px;
+   height:auto;
+   margin:auto;
+   color:black;
+   position: relative;
+}
+.content .par{
+  padding-left: 30px;
+  padding-bottom: 25px;
+  font-family: arial;
+  line-height: 30px;
+}
+.content h1{
+  color:orangered;
+  font-style: unset;
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+}
+.content h2{
+ font-style:oblique;
+}
+.content h2 span{
+  color:red;
+  padding-left: 20px;
+}
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background:beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px ;
+  cursor: pointer;
+}
+.content .ch{
+  width: 200px;
+  height: 40px;
+  background: beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px ;
+  cursor: pointer;
+}
+.image{
+width: 20%;
+  height:60%;
+  position:absolute;
+  right:100px;
+  bottom:0;
+}
+.image img{
+  position:absolute;
+  height: 140%;
+  left:30%;
+  transform:translate(-45%);
+  bottom:0;
+  transition: .6s ease;
+}
+.image:hover .boy{
+  left:50%;
+}
+.content .cn a{
+  text-decoration: none;
+  color:black;
+}
+.content .ch a{
+  text-decoration: none;
+  color:black;
+}
+.about h1{
+  color:orangered;
+  font-family:cursive;
+  font-size: 50px;
+  place-items: center;
+}
+.about{
+  display:grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+  font-size: 20px;
+  font-family:sans-serif;
+}
+.aboutimg{
+  margin-top: 15%;
+}
+.abouttext h2{
+  color:brown;
+  font-style: oblique;
+}
+.abouttext h5{
+  font-style: italic;
+}
+.abouttext .ca{
+  width: 200px;
+  height: 40px;
+  background:beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px ;
+  cursor: pointer;
+}
+.abouttext .ca a{
+  text-decoration: none;
+  color:black;
+}
+.main3{
+  width:100%;
+  background:linear-gradient(rgba(0,0,0,0.5),#408c84), url(cc.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.abouttext .cb{
+  width: 200px;
+  height: 40px;
+  background:beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px ;
+  cursor: pointer;
+  margin-left:100px;
+  margin-left: 50%;
+}
+.abouttext .cb a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+ .span {
+    content: "\27F9";
+    content: "\21D0";
+  }
+  
+.abouttext .cc{
+  width: 200px;
+  height: 40px;
+  background: beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px ;
+  cursor: pointer;
+  transition:.4s ease ;
+}
+.abouttext .cc a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+.projectimg{
+  padding-top: 20px;
+}
+.myprojects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+  align-items: center;
+  gap: 2.2rem;
+  text-align: center;
+  margin-top:20px;
+}
+.myprojects h3{
+  color: aquamarine;
+  font-weight:unset;
+  font-family: cursive;
+}
+.projectbox .zz{
+  width: 100px;
+  height: 40px;
+  background: beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px ;
+  cursor: pointer;
+  transition:.4s ease ;
+}
+.projectbox .zz a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+.projectbox .yy{
+  width: 100px;
+  height: 40px;
+  background:beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px;
+  cursor: pointer;
+  transition:.4s ease ;
+}
+.projectbox .yy a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+.projectbox{
+  border:1px solid transparent;
+  cursor: pointer;
+}
+.projectbox .xx{
+  width: 100px;
+  height: 40px;
+  background: beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px;
+  cursor: pointer;
+  transition:.4s ease ;
+}
+.projectbox .xx a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+.projectbox .ww{
+  width: 100px;
+  height: 40px;
+  background: beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px;
+  cursor: pointer;
+  transition:.4s ease ;
+}
+.projectbox .ww a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+.main4{
+  width:100%;
+  background:linear-gradient(rgba(0,0,0,0.5),#408c84),url(contact1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.contact h2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  color: orange;
+}
+.contact p{
+  text-align: center;
+  font-weight: 300;
+  color:orange;
+}
+.contactform{
+  margin-left: 30%;
+  margin-top: 4%;
+  width:40%;
+  padding:40px;
+  background:transparent;
+}
+.contactform h2{
+  font-size: 30px;
+  color: rgb(245, 89, 5);
+  font-weight: 500;
+}
+.contactform .inputbox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+  width:100%;
+  padding:5px;
+  font-size: 16px;
+  margin:10px 0;
+  border:none;
+  border-bottom: 2px solid black;
+  outline:none;
+  resize: none;
+  background: transparent;
+  cursor: pointer;
+}
+.main4 .vv{
+  width: 100px;
+  height: 40px;
+  background: beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px;
+  cursor: pointer;
+  transition:.4s ease ;
+}
+.main4 .vv a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+.certi{
+  width:100%;
+  background: linear-gradient(rgba(0,0,0,0.5),#408c84), url(certi.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.certi{
+  text-align: center;
+}
+.certi h1{
+  padding-top: 15%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-style: oblique;
+}
+.para{
+  font-style: oblique;
+  font-size: 20px;
+}
+.kk{
+  width: 200px;
+  height: 40px;
+  background: beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px;
+  cursor: pointer;
+  transition:.4s ease ;
+}
+.kk a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+.certi .nnnn{
+  width: 100px;
+  height: 40px;
+  background: beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px;
+  cursor: pointer;
+  transition:.4s ease ;
+  margin-right: 300px;
+}
+.certi .nnnn a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+.certi .oooo{
+  width: 100px;
+  height: 40px;
+  background: beige;
+  border: none;
+  font-size: 18px;
+  border-radius: 32px;
+  cursor: pointer;
+  transition:.4s ease;
+  margin-left: 300px;
+}
+.certi .oooo a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+.projectbox img{
+  background-color: transparent;
+}
+.kidney{
+  mix-blend-mode:color-burn;
+}
+.flight{
+  mix-blend-mode:color-burn;
+}
